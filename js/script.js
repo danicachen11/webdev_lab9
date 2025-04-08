@@ -5,6 +5,7 @@ function showAlert() {
 var input = document.getElementById('entryinput')
 document.getElementById('textoutput').innerHTML = input.value
 	alert("Danica:" + input.value)
-	}
+
+	entrybutton.addEventListener('click', showAlert);
 
 window.addEventListener('load', init);
