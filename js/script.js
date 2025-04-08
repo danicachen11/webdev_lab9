@@ -3,8 +3,9 @@ function init(){
 
 	function showAlert() {
 		var input = document.getElementById('entryinput');
-		document.getElementById('textoutput').innerHTML = input.value;
-		alert("Danica:" + input.value);
+		var output = document.getElementById('textoutput');
+		output.innerHTML = input.value;
+		alert("Danica Chen: " + input.value);
 	}
 	entrybutton.addEventListener('click', showAlert);
 	}
