@@ -1,11 +1,10 @@
 function init(){
-//add your javascrip between these two lines of code
- 
+	var entrybutton = document.getElementById('entrybutton');
 
-
-
-
-
-
+function showAlert() {
+var input = document.getElementById('entryinput')
+document.getElementById('textoutput').innerHTML = input.value
+	alert("Danica:" + input.value)
+	}
 
 window.addEventListener('load', init);
